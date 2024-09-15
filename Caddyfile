@@ -1,0 +1,7 @@
+{
+    debug
+}
+
+:80 {
+    reverse_proxy /api/* http://localhost:3000
+}
